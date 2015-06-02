@@ -1,0 +1,118 @@
+﻿body {
+    font-family: 'Karla', sans-serif;
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    width: 960px;
+    float: left;
+}
+
+.intro {
+    width: 600px;
+    height: 200px;
+    border: 0px solid black;
+    background-color: greenyellow;
+    float: left;
+}
+
+.intro h1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 5px;
+}
+
+.intro p {
+    margin: 10px 5px;
+}
+
+.image {
+    width: 360px;
+    height: 200px;
+    background-color: greenyellow;
+    border: 0px solid black;
+    float: left;
+}
+
+.image img {
+    float: right;
+}
+
+.container {
+    width: 958px;
+    float: left;
+    border: 1px solid yellowgreen;
+}
+
+.content {
+    width: 960px;
+    float: left;
+}
+
+.content article {
+    width: 940px;
+    padding: 0 10px;
+}
+
+.content article h1 {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: GrayText;
+}
+
+.content article p {
+    margin-bottom: 10px;
+    padding: 0px 5px 5px 5px;
+}
+
+table {
+    width: 940px;
+}
+
+table, th, td{
+    border: 1px solid darkgreen;
+    padding: 5px;
+}
+
+th {
+    color: black;
+    font-weight: bold;
+    background-color: lightgray;
+}
+
+footer {
+    width: 960px;
+}
+
+.footer article {
+    width: 940px;
+    padding: 0 10px;
+    clear: both;
+}
+
+.footer article h1 {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: GrayText;
+}
+
+.footer article p {
+    margin-bottom: 10px;
+    padding: 0px 5px 5px 5px;
+}
+
+a {
+    text-decoration: none;
+}
